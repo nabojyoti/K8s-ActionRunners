@@ -32,15 +32,13 @@ Demonstrates a simple workflow using self-hosted runners.
 To set up the project, you'll need the following tools:
 
 1. **Kubernetes Cluster**  
-   ![Kubernetes Logo](https://github.com/kubernetes/kubernetes/blob/master/logo/logo.svg)  
-   A running Kubernetes cluster to deploy and manage the self-hosted GitHub Action runners.
+   <img src="https://github.com/kubernetes/kubernetes/blob/master/logo/logo.svg" alt="Kubernetes Logo" width="50" height="50" style="display:inline-block; vertical-align:middle;"/>&nbsp; Kubernetes cluster to deploy and manage the self-hosted GitHub Action runners.
 
 2. **Helm**  
-   ![Helm Logo](https://helm.sh/img/helm.svg)  
-   Helm is a package manager for Kubernetes, which simplifies deployment and management of applications on Kubernetes.
+   <img src="https://helm.sh/img/helm.svg" alt="Helm Logo" width="50" height="50" style="display:inline-block; vertical-align:middle;"/>&nbsp; Helm is a package manager for Kubernetes, which simplifies deployment and management of applications on Kubernetes.
 
 3. **GitHub Personal Access Token (PAT)**  
-   ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)  
+   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="50" height="50" style="display:inline-block; vertical-align:middle;"/>&nbsp; A GitHub Personal Access Token with the following scopes:
    A GitHub Personal Access Token with the following scopes:
    - `repo`: Full control of private repositories.
    - `admin:org`: Full control over organization resources.
